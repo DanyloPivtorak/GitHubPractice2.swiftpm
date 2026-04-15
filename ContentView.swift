@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var number2 = 2
     var body: some View {
         VStack {
             Image(systemName: "globe")
