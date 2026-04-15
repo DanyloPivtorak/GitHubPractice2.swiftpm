@@ -9,9 +9,9 @@ struct ContentView: View {
     var body: some View {
         TextField("", value: $number1, format: .number)
         TextField("", value: $number2, format: .number)
-        
+    
     Button ("add") {
-            number1 += number2
+        answer = number1 + number2
         }
         Text("\(answer)")
     }
